@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: oldlace;
+  padding: 20px;
+  color: black;
+}
+
+#projects {
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.goodpizza {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  border: solid;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+
+.griditem {
+  
+}
+
+.gridtext {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+}
+
+.button {
+  padding-top: 20px;
+}
